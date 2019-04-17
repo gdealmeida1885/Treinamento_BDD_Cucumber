@@ -1,0 +1,30 @@
+
+
+Estória: 
+    Você é um QA com experiencia em automação e acabou de ser contratado pela CogBank, um banco que está revolucionando o mercado financeiro.
+    A CogBank está em processo de transição e quer automatizar todos seus testes e utilizar técnicas de BDD para efetuar a automação.
+    Você recebeu o documento abaixo com as regras de negócio da CogBank e é sua missão tornar estes requisitos em especificaçõees escritas em BDD e automatizá-los. 
+    Boa sorte!
+
+Regras de Negócio do CogBank
+
+
+Clientes do Serviço Conta Corrente
+    * Todo cliente que possui a conta corrente CogBank pode efetuar saque, deposito e transferencia
+    * Cada vez que um cliente da CogBank efetua um deposito, o dinheiro deve ser adicionado ao saldo do cliente.
+    * Cada vez que um cliente da CogBank efetua um saque, deve ser descontado de sua conta o valor do saque mais a taxa de correntista, no valor de R$ 5.00
+    * Cada vez que um cliente da CogBank efetua uma transferencia, deve ser descontado de sua conta o valor da transferencia mais a taxa de correntista, no valor de R$5.00
+    * Se um cliente faz uma transferencia com valor acima de seu saldo, ele deve ver a mensagem "Saldo insuficiente para transferencia".
+    * Se um cliente faz um saque com valor superior ao seu saldo, ele deve ver a mensagem 'Saldo insuficiente para saque :('
+    * Clientes correntistas podem efetuar saques de apenas R$700.00 reais por transação. Se um cliente faz um saque com valor superior ao limite, ele deve ver a mensagem "Limite máximo por saque é de R$ 700.0"
+    * Clientes correntistas com saldo 0 ou negativo não podem efetuar saques e devem ver a mensagem: 'Saldo insuficiente para saque :('
+
+Clientes do Serviço Conta Corrente
+    * Todo cliente que possui a conta corrente CogBank pode efetuar saque, deposito e transferencia
+    * Cada vez que um cliente da CogBank efetua um deposito, o dinheiro deve ser adicionado ao saldo do cliente.
+    * Cada vez que um cliente da CogBank efetua um saque, deve ser descontado de sua conta o valor do saque mais a taxa de correntista, no valor de R$ 2.00
+    * Cada vez que um cliente da CogBank efetua uma transferencia, deve ser descontado de sua conta o valor da transferencia mais a taxa de correntista, no valor de R$2.00
+    * Se um cliente faz uma transferencia com valor acima de seu saldo, ele deve ver a mensagem "Saldo insuficiente para transferencia".
+    * Se um cliente faz um saque com valor superior ao seu saldo, ele deve ver a mensagem 'Saldo insuficiente para saque :('
+    * Clientes correntistas podem efetuar saques de apenas R$700.00 reais por transação. Se um cliente faz um saque com valor superior ao limite, ele deve ver a mensagem "Limite máximo por saque é de R$ 500.0"
+    * Clientes correntistas com saldo 0 não podem efetuar saques e devem ver a mensagem: 'Saldo insuficiente para saque :('
